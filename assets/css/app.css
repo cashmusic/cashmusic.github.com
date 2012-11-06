@@ -1,5 +1,5 @@
 html {margin:0;padding:0;height:100%;}
-body {color:#231F20;background-color:#fafaf8;text-align:left;font:14px/1.5em helveticaneue,"helvetica neue",helvetica,"segoe ui","segoe wp",arial,sans-serif;margin:0;padding:0;min-height:300px;text-rendering:optimizelegibility;height:100%;min-height:500px;}
+body {color:#231F20;background-color:#fafaf8;text-align:left;font:14px/1.5em helveticaneue,"helvetica neue",helvetica,"segoe ui","segoe wp",arial,sans-serif;margin:0;padding:0;min-height:300px;text-rendering:optimizelegibility;height:100%;}
 h1 {color:#ff0;font-size:96px;margin:0 0 0 -5px;}
 h2, h3, h4, h5 {color:inherit;}
 a {color:rgb(8, 145, 223);}
@@ -44,6 +44,9 @@ textarea.tall {height:200px;}
 
  @media only screen and (max-width: 480px){
  	#hellospc {top:4px;left:16px;font-size:12px;}
+ 	.section {padding-top:4px;margin-bottom:40px;}
+     #mainspc {margin-top:4px;}
+ 	#mainnav {position:static;}
  	#mainnavlinks {padding-left:16px;line-height:1.5em;}
  	#mainnavlinks a {display:block;position:relative;width:1px;}
  }
